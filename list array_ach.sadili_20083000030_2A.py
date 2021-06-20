@@ -4,7 +4,7 @@ ACH SADILI
 KELAS 2A
 dibuat tgl: 20/06/2021
 '''
-import os
+1. import os
 clear = lambda : os.system('cls')
 jwb = 'y'
 while jwb == 'y' or jwb == 'Y' :
@@ -34,7 +34,7 @@ while jwb == 'y' or jwb == 'Y' :
         elif pil == 1 :
             idx = 0
             break
-    totHrgsblmppn = jmlh * harga[idx]
+2.    totHrgsblmppn = jmlh * harga[idx]
     totppn = totHrgsblmppn * ppn
     totHrg = totHrgsblmppn + totppn
     if totHrgsblmppn >= 200000 :
